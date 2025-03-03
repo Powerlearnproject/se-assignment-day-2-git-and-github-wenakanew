@@ -66,7 +66,7 @@ A README file in a GitHub repo is important because:
 | **Use Case*   | Open-source projects, portfolios | Confidential, business, or personal projects |
 | **Cost*      | Free | Free for personal use, but organizations may require a paid plan |
 
- **PUBLIC REPO*
+ **PUBLIC REPOSITORY*
 
 **ADVANTAGES*
 1. Encourages open-source collaboration.  
@@ -77,7 +77,7 @@ A README file in a GitHub repo is important because:
 1. Risk of code theft or misuse.  
 2. Less control over who accesses it.  
 
- **PRIVATE REPO*
+ **PRIVATE REPOSITORY*
 
  **ADVANTAGES*
 1. Maintains confidentiality.  
@@ -93,6 +93,43 @@ A README file in a GitHub repo is important because:
 
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
+
+** Steps to Make Your First Commit on GitHub*
+
+1️. Initialize a Git Repository (If Not Already Created).
+   ```bash
+   git init
+   ```
+   
+2️. Add a File (e.g., README.md).  
+   ```bash
+   echo "# My First Repo" > README.md
+   ```
+
+3️. Stage the File.  
+   ```bash
+   git add README.md
+   ```
+
+4️. Commit the File.  
+   ```bash
+   git commit -m "Initial commit"
+   ```
+
+5️. Connect to GitHub Repository.  
+   ```bash
+   git remote add origin https://github.com/your-username/your-repo.git
+   ```
+
+6️. Push the Commit to GitHub.  
+   ```bash
+   git push -u origin main
+   ```
+A commit is a snapshot of your project at a given time. It helps in:
+1. Tracking changes over time  
+2. Allowing rollback to previous versions  
+3. Managing collaboration efficiently  
+
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
