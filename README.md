@@ -68,10 +68,11 @@ A README file in a GitHub repo is important because:
 
  **PUBLIC REPO*
 
- **ADVANTAGES*
+**ADVANTAGES*
 1. Encourages open-source collaboration.  
 2. Increases project visibility.  
-3. Free for unlimited contributors.  
+3. Free for unlimited contributors.
+     
 **DISADVANTAGES*
 1. Risk of code theft or misuse.  
 2. Less control over who accesses it.  
@@ -81,8 +82,9 @@ A README file in a GitHub repo is important because:
  **ADVANTAGES*
 1. Maintains confidentiality.  
 2. Restricts access to selected members.  
-3. Ideal for proprietary or sensitive projects.  
- **DISADVANTAGES*
+3. Ideal for proprietary or sensitive projects.
+   
+**DISADVANTAGES*
 1. Limits external contributions.  
 2. May require a paid plan for teams.  
 
