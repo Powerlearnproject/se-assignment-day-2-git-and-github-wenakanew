@@ -31,6 +31,7 @@
 ## Discuss the importance of the README file in a GitHub repository. What should be included in a well-written README, and how does it contribute to effective collaboration?
 
 A README file is one of the most critical files in a **GitHub repository**. It serves as the **first point of contact** for anyone who visits the project and provides essential information about the repository.  
+
 A README file in a GitHub repo is important because:
 1. It explains what the project is about and why it exists.  
 2. It provides installation steps, usage instructions, and examples.  
