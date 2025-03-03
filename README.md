@@ -133,6 +133,58 @@ A commit is a snapshot of your project at a given time. It helps in:
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 
+Branching allows developers to work on different features or fixes independently without affecting the main project. 
+
+ Branching:
+1. Enables parallel development.  
+2. Prevents conflicts.  
+3. Facilitates testing.  
+4. Improves collaboration.  
+
+1️. Create a New Branch.  
+   ```bash
+   git branch feature-branch
+   ```
+   
+2️. Switch to the New Branch.  
+   ```bash
+   git checkout feature-branch
+   ```
+
+3️. Make Changes & Commit.
+   ```bash
+   git add .
+   git commit -m "Added new feature"
+   ```
+
+4️. Push the Branch to GitHub.  
+   ```bash
+   git push -u origin feature-branch
+   ```
+
+5️. Create a Pull Request (PR) on GitHub.  
+   - Go to your repository on GitHub.  
+   - Click Pull Requests → New Pull Request.  
+   - Compare `feature-branch` with `main` and submit for review.  
+
+6️. Merge the Branch into `main`. 
+   ```bash
+   git checkout main
+   git merge feature-branch
+   git push origin main
+   ```
+
+7️. Delete the Merged Branch (Optional). 
+   ```bash
+   git branch -d feature-branch
+   git push origin --delete feature-branch
+   ```
+ Typical Git Branching Workflow.
+1. `main` → Stable, production-ready code  
+2. `develop` → Staging/testing branch  
+3. `feature-branch` → New features or bug fixes  
+4. `hotfix-branch` → Urgent fixes applied to `main`  
+
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
