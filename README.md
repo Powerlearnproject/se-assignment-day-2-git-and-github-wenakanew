@@ -40,6 +40,7 @@ A README file in a GitHub repo is important because:
 5. Makes the repository look well-organized and easier to navigate.  
 
 A good README should have:
+
 1️. Project Title & Description
 2️. Installation Instructions
 3️. Usage Guide
